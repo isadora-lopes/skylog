@@ -2,8 +2,6 @@
 
 Diário de observações astronômicas — **Django + DRF** (backend) e **React + TypeScript + Vite** (frontend).
 
-Inspirado nos padrões de `adviceplace` e `api-backend-django`, sem dependência desses repositórios.
-
 ## Pré-requisitos
 
 - Python 3.12+
