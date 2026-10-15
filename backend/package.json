@@ -1,0 +1,10 @@
+{
+  "name": "skylog-backend",
+  "private": true,
+  "scripts": {
+    "dev": "python src/manage.py runserver 0.0.0.0:8000",
+    "migrate": "python src/manage.py migrate",
+    "test": "pytest",
+    "lint": "python -m compileall src"
+  }
+}

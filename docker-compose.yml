@@ -1,0 +1,18 @@
+services:
+  db:
+    image: mysql:8.4
+    container_name: skylog-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: skylog
+      MYSQL_USER: skylog
+      MYSQL_PASSWORD: skylog
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3307:3306"
+    volumes:
+      - skylog_mysql_data:/var/lib/mysql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+volumes:
+  skylog_mysql_data:
