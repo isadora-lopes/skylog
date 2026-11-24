@@ -75,9 +75,6 @@ WEATHER_CURRENT_CACHE_TTL=60
 
 Reduz chamadas repetidas à NASA Horizons e Open-Meteo (útil no widget SSE ao vivo).
 
-### Health check
-
-`GET /api/health` — inclui status do banco (`database: up|down`).
 
 ## Variáveis (frontend)
 
